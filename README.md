@@ -24,33 +24,30 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
-
+ - Step 1 Made new users in Active Directory, set their passwords, and added them to the right groups.
+ - Step 2 Reset passwords and disabled accounts when needed.
+- Step 3 Made Group Policy to set desktop wallpapers, force password rules, and block Control Panel.
+- Step 4 Applied the policies to users and checked that they worked on client PCs 
 <h2>Deployment and Configuration Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="2622" height="1008" alt="image" src="https://github.com/user-attachments/assets/d09d4ff3-2deb-4239-a85f-ba8ca5b6b0a5" />
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
+Created a new user in Active Directory and set up their account and Resetting a password in ADUC.
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+<img width="2638" height="1058" alt="image" src="https://github.com/user-attachments/assets/b0556d88-2430-4ea0-8c9d-b7460f1a2dc4" />
+</p>This is where you edit policies that control security and user/computer behavior across the domain.
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
 </p>
 <br />
 
+<p><img width="702" height="960" alt="image" src="https://github.com/user-attachments/assets/100fce9d-0c25-40e5-a463-47b9e06177a7" />
+
+</p> By ticking the "Unlock account" box, the admin is manually unlocking the account so the user can log in again right away — without waiting for the system to unlock it automatically.
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
 <br />
