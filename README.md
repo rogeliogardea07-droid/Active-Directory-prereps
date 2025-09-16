@@ -47,7 +47,7 @@ Created a new user in Active Directory and set up their account and Resetting a 
 
 <p><img width="702" height="960" alt="image" src="https://github.com/user-attachments/assets/100fce9d-0c25-40e5-a463-47b9e06177a7" />
 
-</p> By ticking the "Unlock account" box, the admin is manually unlocking the account so the user can log in again right away — without waiting for the system to unlock it automatically.
+</p> By clicking the "Unlock account" box, the admin is manually unlocking the account so the user can log in again right away — without waiting for the system to unlock it automatically.
 <p>
 </p>
 <br />
